@@ -8,3 +8,27 @@ var myDog = {
 // Changes name of variable myDog
 
 myDog.name = "Happy Coder";
+
+//add bark
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.bark = "woof woof";
+
+//remove bark
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog.bark;
+
